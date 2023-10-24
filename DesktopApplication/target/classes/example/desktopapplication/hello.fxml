@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.desktopapplication.Controller">
+    <children>
+        <AnchorPane layoutX="-4.0" layoutY="93.0" prefHeight="307.0" prefWidth="707.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TextField fx:id="loginField" layoutX="156.0" layoutY="92.0" prefHeight="25.0" prefWidth="431.0" promptText="Логин" style="-fx-border-color: silver;">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="passwordField" layoutX="156.0" layoutY="154.0" prefHeight="25.0" prefWidth="431.0" promptText="Пароль">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </PasswordField>
+                <Label layoutX="228.0" prefHeight="73.0" prefWidth="318.0" text="Авторизация" textFill="SILVER">
+                    <font>
+                        <Font name="Impact" size="50.0" />
+                    </font>
+                </Label>
+                <Button fx:id="authSignInButton" layoutX="290.0" layoutY="216.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="163.0" style="-fx-background-color: #F39C63;" text="Войти" textFill="#fafafa">
+                    <font>
+                        <Font name="SimSun" size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="274.0" layoutY="-6.0" prefHeight="73.0" prefWidth="205.0" text="desktop" textFill="#fafafa">
+            <font>
+                <Font name="Ink Free" size="53.0" />
+            </font>
+        </Label>
+        <Button fx:id="loginSignUpButton" layoutX="526.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="163.0" style="-fx-background-color: #F39C63;" text="Зарегистрироваться" textFill="#fafafa">
+            <font>
+                <Font name="Ink Free" size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

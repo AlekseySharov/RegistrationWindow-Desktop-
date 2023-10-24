@@ -1,0 +1,9 @@
+example\desktopapplication\DatabaseHandler.class
+example\desktopapplication\SignUpController.class
+example\desktopapplication\User.class
+module-info.class
+example\desktopapplication\Application.class
+example\desktopapplication\HomeController.class
+example\desktopapplication\Const.class
+example\desktopapplication\Configs.class
+example\desktopapplication\Controller.class
